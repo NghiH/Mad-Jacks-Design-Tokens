@@ -145,7 +145,7 @@
       },
       "hover": {
         "bg-colour": {
-          "value": "$generic.black",
+          "value": "rgba($neutral.400,0.25)",
           "type": "color"
         },
         "border-colour": {
