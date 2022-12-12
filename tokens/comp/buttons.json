@@ -182,11 +182,11 @@
     },
     "disabled": {
       "bg-colour": {
-        "value": "$neutral.100",
+        "value": "$neutral.700",
         "type": "color"
       },
       "border-colour": {
-        "value": "$neutral.100",
+        "value": "$neutral.700",
         "type": "color"
       },
       "text-colour": {

@@ -81,6 +81,10 @@
     "stark-contrast": {
       "value": "$generic.white",
       "type": "color"
+    },
+    "empty": {
+      "value": "rgba($generic.black,0)",
+      "type": "color"
     }
   },
   "focusRing": {
