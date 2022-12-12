@@ -33,7 +33,7 @@
       },
       "hover": {
         "bg-colour": {
-          "value": "$primary.700",
+          "value": "$primary.800",
           "type": "color"
         },
         "border-colour": {
@@ -71,7 +71,7 @@
     "secondary": {
       "default": {
         "bg-colour": {
-          "value": "$primary.25",
+          "value": "rgba($primary.300,0.25)",
           "type": "color"
         },
         "border-colour": {
@@ -79,7 +79,7 @@
           "type": "color"
         },
         "text-colour": {
-          "value": "$primary.500",
+          "value": "$primary.400",
           "type": "color"
         },
         "icon-colour": {
@@ -89,7 +89,7 @@
       },
       "hover": {
         "bg-colour": {
-          "value": "$primary.50",
+          "value": "$primary.800",
           "type": "color"
         },
         "border-colour": {
@@ -97,7 +97,7 @@
           "type": "color"
         },
         "text-colour": {
-          "value": "$primary.600",
+          "value": "$primary.500",
           "type": "color"
         },
         "icon-colour": {
@@ -107,7 +107,7 @@
       },
       "focus": {
         "bg-colour": {
-          "value": "$primary.50",
+          "value": "$primary.900",
           "type": "color"
         },
         "border-colour": {
@@ -127,7 +127,7 @@
     "neutral": {
       "default": {
         "bg-colour": {
-          "value": "$generic.white",
+          "value": "$neutral.900",
           "type": "color"
         },
         "border-colour": {
@@ -145,15 +145,15 @@
       },
       "hover": {
         "bg-colour": {
-          "value": "$neutral.100",
+          "value": "$generic.black",
           "type": "color"
         },
         "border-colour": {
-          "value": "$neutral.500",
+          "value": "$neutral.300",
           "type": "color"
         },
         "text-colour": {
-          "value": "{text-colour.default.highlight}",
+          "value": "{text-colour.default.default}",
           "type": "color"
         },
         "icon-colour": {
@@ -163,7 +163,7 @@
       },
       "focus": {
         "bg-colour": {
-          "value": "$generic.white",
+          "value": "$neutral.900",
           "type": "color"
         },
         "border-colour": {
@@ -209,7 +209,7 @@
           "type": "color"
         },
         "text-colour": {
-          "value": "$generic.white",
+          "value": "$neutral.50",
           "type": "color"
         },
         "icon-colour": {
@@ -227,7 +227,7 @@
           "type": "color"
         },
         "text-colour": {
-          "value": "$generic.white",
+          "value": "$sys.error.500",
           "type": "color"
         },
         "icon-colour": {
@@ -245,7 +245,7 @@
           "type": "color"
         },
         "text-colour": {
-          "value": "$generic.white",
+          "value": "$neutral.50",
           "type": "color"
         },
         "icon-colour": {
@@ -257,11 +257,11 @@
     "destructive-secondary": {
       "default": {
         "bg-colour": {
-          "value": "$sys.error.50",
+          "value": "rgba($sys.error.300,0.25)",
           "type": "color"
         },
         "border-colour": {
-          "value": "$sys.error.200",
+          "value": "rgba($sys.error.300,0.25)",
           "type": "color"
         },
         "text-colour": {
@@ -275,15 +275,15 @@
       },
       "hover": {
         "bg-colour": {
-          "value": "$sys.error.100",
+          "value": "$sys.error.800",
           "type": "color"
         },
         "border-colour": {
-          "value": "$sys.error.400",
+          "value": "$sys.error.800",
           "type": "color"
         },
         "text-colour": {
-          "value": "$sys.error.800",
+          "value": "$sys.error.500",
           "type": "color"
         },
         "icon-colour": {
@@ -293,15 +293,15 @@
       },
       "focus": {
         "bg-colour": {
-          "value": "$sys.error.50",
+          "value": "$sys.error.600",
           "type": "color"
         },
         "border-colour": {
-          "value": "$sys.error.200",
+          "value": "$sys.error.600",
           "type": "color"
         },
         "text-colour": {
-          "value": "$sys.error.600",
+          "value": "$neutral.50",
           "type": "color"
         },
         "icon-colour": {
@@ -360,7 +360,7 @@
         "type": "boxShadow"
       },
       "secondary": {
-        "value": "{button.focus.primary}",
+        "value": "$focusRing.primary",
         "type": "boxShadow"
       },
       "neutral": {
