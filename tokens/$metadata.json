@@ -2,8 +2,8 @@
   "tokenSetOrder": [
     "_core/global",
     "_core/local",
-    "scheme/scheme-light",
     "scheme/scheme-dark",
+    "scheme/scheme-light",
     "comp/buttons",
     "comp/check-boxes",
     "comp/input fields",
