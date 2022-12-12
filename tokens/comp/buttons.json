@@ -1,7 +1,7 @@
 {
   "button": {
     "border-radius": {
-      "value": "$radii.100",
+      "value": "$radii.none",
       "type": "borderRadius"
     },
     "round": {
@@ -23,7 +23,7 @@
           "type": "color"
         },
         "text-colour": {
-          "value": "$generic.white",
+          "value": "$neutral.50",
           "type": "color"
         },
         "icon-colour": {
@@ -41,7 +41,7 @@
           "type": "color"
         },
         "text-colour": {
-          "value": "$generic.white",
+          "value": "$neutral.50",
           "type": "color"
         },
         "icon-colour": {
@@ -59,11 +59,11 @@
           "type": "color"
         },
         "text-colour": {
-          "value": "$generic.white",
+          "value": "$neutral.50",
           "type": "color"
         },
         "icon-colour": {
-          "value": "{button.primary.hover.text-colour}",
+          "value": "{button.primary.focus.text-colour}",
           "type": "color"
         }
       }
