@@ -1,0 +1,14 @@
+{
+  "tokenSetOrder": [
+    "_core/global",
+    "_core/local",
+    "scheme/scheme-light",
+    "scheme/scheme-dark",
+    "comp/buttons",
+    "comp/check-boxes",
+    "comp/input fields",
+    "comp/toggles",
+    "comp/dropdowns",
+    "comp/alerts"
+  ]
+}

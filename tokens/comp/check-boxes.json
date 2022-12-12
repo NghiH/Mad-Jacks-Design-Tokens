@@ -1,0 +1,270 @@
+{
+  "check-box": {
+    "border-width": {
+      "value": "$border-width.default",
+      "type": "borderWidth"
+    },
+    "bg-colour": {
+      "empty": {
+        "default": {
+          "value": "{comp.bg-colour.default}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "rgba($primary.100, 0.5)",
+          "type": "color"
+        },
+        "focus": {
+          "value": "$check-box.bg-colour.empty.default",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.200",
+          "type": "color"
+        }
+      },
+      "selected": {
+        "default": {
+          "value": "$primary.500",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "focus": {
+          "value": "{check-box.bg-colour.selected.default}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.400",
+          "type": "color"
+        }
+      },
+      "intermediate": {
+        "default": {
+          "value": "$primary.500",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "focus": {
+          "value": "$check-box.bg-colour.intermediate.default",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.400",
+          "type": "color"
+        }
+      }
+    },
+    "border-colour": {
+      "empty": {
+        "default": {
+          "value": "$neutral.500",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "focus": {
+          "value": "$primary.300",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.400",
+          "type": "color"
+        }
+      },
+      "selected": {
+        "default": {
+          "value": "$primary.500",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "focus": {
+          "value": "{check-box.bg-colour.selected.default}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.400",
+          "type": "color"
+        }
+      },
+      "intermediate": {
+        "default": {
+          "value": "$primary.500",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "focus": {
+          "value": "$check-box.border-colour.intermediate.default",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.400",
+          "type": "color"
+        }
+      }
+    },
+    "icon-colour": {
+      "selected": {
+        "default": {
+          "value": "$generic.white",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "rgba($generic.white, 0.75)",
+          "type": "color"
+        }
+      },
+      "intermediate": {
+        "default": {
+          "value": "$primary.25",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "rgba($generic.white, 0.75)",
+          "type": "color"
+        }
+      }
+    },
+    "focus-ring": {
+      "value": "$focusRing.primary",
+      "type": "boxShadow"
+    },
+    "size": {
+      "sm": {
+        "value": "$size.comp.sm",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "$size.comp.md",
+        "type": "sizing"
+      }
+    },
+    "border-radius": {
+      "checkBox": {
+        "value": "$radii.25",
+        "type": "borderRadius"
+      },
+      "radio": {
+        "value": "$radii.round",
+        "type": "borderRadius"
+      }
+    },
+    "text": {
+      "value": "$body.sm.regular",
+      "type": "typography"
+    },
+    "supp-text": {
+      "value": "$body.sm.regular",
+      "type": "typography"
+    }
+  },
+  "radio": {
+    "bg-colour": {
+      "empty": {
+        "default": {
+          "value": "{comp.bg-colour.default}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "rgba($primary.100, 0.5)",
+          "type": "color"
+        },
+        "focus": {
+          "value": "$check-box.bg-colour.empty.default",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.200",
+          "type": "color"
+        }
+      },
+      "selected": {
+        "default": {
+          "value": "$primary.25",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$primary.50",
+          "type": "color"
+        },
+        "focus": {
+          "value": "$radio.bg-colour.selected.default",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.100",
+          "type": "color"
+        }
+      }
+    },
+    "border-colour": {
+      "empty": {
+        "default": {
+          "value": "$neutral.500",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "focus": {
+          "value": "$primary.300",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.400",
+          "type": "color"
+        }
+      },
+      "selected": {
+        "default": {
+          "value": "$primary.500",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "focus": {
+          "value": "{check-box.bg-colour.selected.default}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$neutral.400",
+          "type": "color"
+        }
+      }
+    },
+    "inner-colour": {
+      "default": {
+        "value": "$radio.border-colour.selected.default",
+        "type": "color"
+      },
+      "hover": {
+        "value": "$radio.border-colour.selected.hover",
+        "type": "color"
+      },
+      "focus": {
+        "value": "$radio.border-colour.selected.focus",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "$radio.border-colour.selected.disabled",
+        "type": "color"
+      }
+    }
+  }
+}

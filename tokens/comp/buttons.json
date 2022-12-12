@@ -1,0 +1,500 @@
+{
+  "button": {
+    "border-radius": {
+      "value": "$radii.100",
+      "type": "borderRadius"
+    },
+    "round": {
+      "value": "$radii.round",
+      "type": "borderRadius"
+    },
+    "border-width": {
+      "value": "$borderWidth.100",
+      "type": "borderWidth"
+    },
+    "primary": {
+      "default": {
+        "bg-colour": {
+          "value": "$primary.500",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "{button.primary.default.bg-colour}",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$generic.white",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "$button.primary.default.text-colour",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "bg-colour": {
+          "value": "$primary.700",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "{button.primary.hover.bg-colour}",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$generic.white",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{button.primary.hover.text-colour}",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "bg-colour": {
+          "value": "$button.primary.default.bg-colour",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "$button.primary.focus.bg-colour",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$generic.white",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{button.primary.hover.text-colour}",
+          "type": "color"
+        }
+      }
+    },
+    "secondary": {
+      "default": {
+        "bg-colour": {
+          "value": "$primary.25",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "{button.secondary.default.bg-colour}",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$primary.500",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "$button.secondary.default.text-colour",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "bg-colour": {
+          "value": "$primary.50",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "$button.secondary.hover.bg-colour",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$primary.600",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "$button.secondary.hover.text-colour",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "bg-colour": {
+          "value": "$primary.50",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "$button.secondary.focus.bg-colour",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$primary.500",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "$button.secondary.focus.text-colour",
+          "type": "color"
+        }
+      }
+    },
+    "neutral": {
+      "default": {
+        "bg-colour": {
+          "value": "$generic.white",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "$neutral.300",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "{text-colour.default.default}",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "$button.neutral.default.text-colour",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "bg-colour": {
+          "value": "$neutral.100",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "$neutral.500",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "{text-colour.default.highlight}",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "$button.neutral.hover.text-colour",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "bg-colour": {
+          "value": "$generic.white",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "$neutral.300",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "{text-colour.default.default}",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "$button.neutral.focus.text-colour",
+          "type": "color"
+        }
+      }
+    },
+    "disabled": {
+      "bg-colour": {
+        "value": "$neutral.100",
+        "type": "color"
+      },
+      "border-colour": {
+        "value": "$neutral.100",
+        "type": "color"
+      },
+      "text-colour": {
+        "value": "{text-colour.default.disabled}",
+        "type": "color"
+      },
+      "icon-colour": {
+        "value": "$button.disabled.text-colour",
+        "type": "color"
+      }
+    },
+    "destructive-primary": {
+      "default": {
+        "bg-colour": {
+          "value": "$sys.error.600",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "{button.destructive-primary.default.bg-colour}",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$generic.white",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{button.destructive-primary.default.text-colour}",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "bg-color": {
+          "value": "$sys.error.800",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "{button.destructive-primary.hover.bg-color}",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$generic.white",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{button.destructive-primary.hover.text-colour}",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "bg-colour": {
+          "value": "$sys.error.600",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "{button.destructive-primary.focus.bg-colour}",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$generic.white",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{button.destructive-primary.focus.text-colour}",
+          "type": "color"
+        }
+      }
+    },
+    "destructive-secondary": {
+      "default": {
+        "bg-colour": {
+          "value": "$sys.error.50",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "$sys.error.200",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$sys.error.600",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{button.destructive-secondary.default.text-colour}",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "bg-colour": {
+          "value": "$sys.error.100",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "$sys.error.400",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$sys.error.800",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{button.destructive-secondary.hover.text-colour}",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "bg-colour": {
+          "value": "$sys.error.50",
+          "type": "color"
+        },
+        "border-colour": {
+          "value": "$sys.error.200",
+          "type": "color"
+        },
+        "text-colour": {
+          "value": "$sys.error.600",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{button.destructive-secondary.focus.text-colour}",
+          "type": "color"
+        }
+      }
+    },
+    "text-style": {
+      "sm": {
+        "value": "$body.sm.semibold",
+        "type": "typography"
+      },
+      "md": {
+        "value": "$body.sm.semibold",
+        "type": "typography"
+      },
+      "lg": {
+        "value": "$body.md.semibold",
+        "type": "typography"
+      },
+      "xl": {
+        "value": "$body.md.semibold",
+        "type": "typography"
+      },
+      "xxl": {
+        "value": "$body.lg.semibold",
+        "type": "typography"
+      }
+    },
+    "icon-size": {
+      "sm": {
+        "value": "$size.comp.md",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "$size.comp.md",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "$size.comp.md",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "$size.comp.md",
+        "type": "sizing"
+      },
+      "xxl": {
+        "value": "$size.comp.lg",
+        "type": "sizing"
+      }
+    },
+    "focus": {
+      "primary": {
+        "value": "$focusRing.primary",
+        "type": "boxShadow"
+      },
+      "secondary": {
+        "value": "{button.focus.primary}",
+        "type": "boxShadow"
+      },
+      "neutral": {
+        "value": "$focusRing.neutral",
+        "type": "boxShadow"
+      },
+      "error": {
+        "value": "$focusRing.error",
+        "type": "boxShadow"
+      }
+    },
+    "hover": {
+      "value": "$dropShadow.lg",
+      "type": "boxShadow"
+    },
+    "sm": {
+      "space-around": {
+        "horizontal": {
+          "value": "{space-around.comp.md}",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "{space-around.comp.xs}",
+          "type": "spacing"
+        },
+        "icon-only": {
+          "value": "{space-around.comp.xs}",
+          "type": "spacing"
+        },
+        "link": {
+          "value": "0",
+          "type": "spacing"
+        }
+      },
+      "space-between": {
+        "value": "{space-between.comp.sm}",
+        "type": "spacing"
+      }
+    },
+    "md": {
+      "space-between": {
+        "value": "{space-between.comp.sm}",
+        "type": "spacing"
+      },
+      "space-around": {
+        "horizontal": {
+          "value": "{space-around.comp.lg}",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "{space-around.comp.sm}",
+          "type": "spacing"
+        },
+        "icon-only": {
+          "value": "{space-around.comp.sm}",
+          "type": "spacing"
+        },
+        "link": {
+          "value": "0",
+          "type": "spacing"
+        }
+      }
+    },
+    "lg": {
+      "space-between": {
+        "value": "{space-between.comp.sm}",
+        "type": "spacing"
+      },
+      "space-around": {
+        "horizontal": {
+          "value": "{space-around.comp.sm} + {space-around.comp.xs}",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "{space-around.comp.sm}",
+          "type": "spacing"
+        },
+        "icon-only": {
+          "value": "{space-around.comp.md}",
+          "type": "spacing"
+        },
+        "link": {
+          "value": "0",
+          "type": "spacing"
+        }
+      }
+    },
+    "xl": {
+      "space-between": {
+        "value": "{space-between.comp.sm}",
+        "type": "spacing"
+      },
+      "space-around": {
+        "horizontal": {
+          "value": "{space-around.comp.xl}",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "{space-around.comp.md}",
+          "type": "spacing"
+        },
+        "icon-only": {
+          "value": "{space-around.comp.sm} + {space-around.comp.xxs}",
+          "type": "spacing"
+        },
+        "link": {
+          "value": "0",
+          "type": "spacing"
+        }
+      }
+    },
+    "xxl": {
+      "space-between": {
+        "value": "{space-between.comp.md}",
+        "type": "spacing"
+      },
+      "space-around": {
+        "horizontal": {
+          "value": "{space-around.comp.4xl}",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "{space-around.comp.sm} + {space-around.comp.xxs}",
+          "type": "spacing"
+        },
+        "icon-only": {
+          "value": "{space-around.comp.lg}",
+          "type": "spacing"
+        },
+        "link": {
+          "value": "0",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

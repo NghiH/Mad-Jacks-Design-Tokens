@@ -1,0 +1,18 @@
+{
+  "alert": {
+    "text": {
+      "value": "$body.md.medium",
+      "type": "typography"
+    },
+    "space-around": {
+      "horizontal": {
+        "value": "$space-around.comp.2xl",
+        "type": "spacing"
+      },
+      "vertical": {
+        "value": "$space-around.comp.md",
+        "type": "spacing"
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "text-colour": {
+    "default": {
+      "default": {
+        "value": "$neutral.700",
+        "type": "color"
+      },
+      "highlight": {
+        "value": "$neutral.900",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "$neutral.500",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "$neutral.400",
+        "type": "color"
+      },
+      "success": {
+        "value": "$sys.success.700",
+        "type": "color"
+      },
+      "warning": {
+        "value": "$sys.warning.700",
+        "type": "color"
+      },
+      "error": {
+        "value": "$sys.error.700",
+        "type": "color"
+      }
+    },
+    "contrast": {
+      "default": {
+        "value": "$neutral.50",
+        "type": "color"
+      },
+      "highlight": {
+        "value": "$generic.white",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "rgba($neutral.50, 0.75)",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "rgba($neutral.50, 0.5)",
+        "type": "color"
+      },
+      "success": {
+        "value": "$sys.success.600",
+        "type": "color"
+      },
+      "warning": {
+        "value": "$sys.warning.600",
+        "type": "color"
+      },
+      "error": {
+        "value": "$sys.error.600",
+        "type": "color"
+      }
+    }
+  },
+  "section": {
+    "bg-colour": {
+      "default": {
+        "value": "$neutral.50",
+        "type": "color"
+      },
+      "contrast": {
+        "value": "$neutral.900",
+        "type": "color"
+      }
+    }
+  },
+  "comp": {
+    "bg-colour": {
+      "default": {
+        "value": "$generic.white",
+        "type": "color"
+      },
+      "contrast": {
+        "value": "$generic.black",
+        "type": "color"
+      }
+    }
+  }
+}
