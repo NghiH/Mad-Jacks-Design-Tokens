@@ -10,11 +10,11 @@
         "type": "color"
       },
       "placeholder": {
-        "value": "rbga ($neutral.100, 0.75)",
+        "value": "$neutral.300",
         "type": "color"
       },
       "disabled": {
-        "value": "rbga ($neutral.100, 0.5)",
+        "value": "$neutral.500",
         "type": "color"
       },
       "success": {
@@ -29,6 +29,58 @@
         "value": "$sys.error.700",
         "type": "color"
       }
+    },
+    "contrast": {
+      "default": {
+        "value": "$neutral.700",
+        "type": "color"
+      },
+      "highlight": {
+        "value": "$generic.black",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "$neutral.500",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "$neutral.400",
+        "type": "color"
+      },
+      "success": {
+        "value": "$sys.success.700",
+        "type": "color"
+      },
+      "warning": {
+        "value": "$sys.warning.700",
+        "type": "color"
+      },
+      "error": {
+        "value": "$sys.error.700",
+        "type": "color"
+      }
+    }
+  },
+  "bg-colour": {
+    "default": {
+      "value": "$neutral.900",
+      "type": "color"
+    },
+    "medium": {
+      "value": "$neutral.700",
+      "type": "color"
+    },
+    "contrast": {
+      "value": "$neutral.100",
+      "type": "color"
+    },
+    "stark": {
+      "value": "$generic.black",
+      "type": "color"
+    },
+    "stark-contrast": {
+      "value": "$generic.white",
+      "type": "color"
     }
   }
 }
