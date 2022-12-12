@@ -2,7 +2,7 @@
   "text-colour": {
     "default": {
       "default": {
-        "value": "$neutral.100",
+        "value": "$neutral.50",
         "type": "color"
       },
       "highlight": {
