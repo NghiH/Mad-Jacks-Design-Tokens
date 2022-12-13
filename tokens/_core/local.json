@@ -2098,5 +2098,345 @@
         "type": "sizing"
       }
     }
+  },
+  "focusRing": {
+    "primary": {
+      "value": [
+        {
+          "color": "#e7313e99",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#0000001a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 2,
+          "spread": -1
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "info": {
+      "value": [
+        {
+          "color": "#528bff99",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#0000001a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 2,
+          "spread": -1
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "success": {
+      "value": [
+        {
+          "color": "#3ccb7f99",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#0000001a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 2,
+          "spread": -1
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "warning": {
+      "value": [
+        {
+          "color": "#fac51599",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#0000001a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 2,
+          "spread": -1
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "error": {
+      "value": [
+        {
+          "color": "#f3874499",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#0000001a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 2,
+          "spread": -1
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "neutral": {
+      "value": [
+        {
+          "color": "#8f8e8599",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#0000001a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 2,
+          "spread": -1
+        }
+      ],
+      "type": "boxShadow"
+    }
+  },
+  "dropShadow": {
+    "xs": {
+      "value": {
+        "color": "#0000001f",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 1,
+        "blur": 2,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "sm": {
+      "value": [
+        {
+          "color": "#0000000f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 3,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "md": {
+      "value": [
+        {
+          "color": "#0000000f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": -2
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 8,
+          "spread": -2
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "lg": {
+      "value": [
+        {
+          "color": "#0000000f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 6,
+          "spread": -2
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 12,
+          "blur": 16,
+          "spread": -4
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "xl": {
+      "value": [
+        {
+          "color": "#0000000f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 8,
+          "blur": 8,
+          "spread": -4
+        },
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 20,
+          "blur": 24,
+          "spread": -4
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "2xl": {
+      "value": {
+        "color": "#00000033",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 24,
+        "blur": 48,
+        "spread": -12
+      },
+      "type": "boxShadow"
+    },
+    "3xl": {
+      "value": {
+        "color": "#00000033",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 32,
+        "blur": 64,
+        "spread": -12
+      },
+      "type": "boxShadow"
+    }
+  },
+  "innerShadow": {
+    "1px": {
+      "value": {
+        "color": "#0000001f",
+        "type": "innerShadow",
+        "x": 0,
+        "y": 1,
+        "blur": 1,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "2px": {
+      "value": {
+        "color": "#0000001f",
+        "type": "innerShadow",
+        "x": 0,
+        "y": 2,
+        "blur": 2,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "4px": {
+      "value": {
+        "color": "#0000001f",
+        "type": "innerShadow",
+        "x": 0,
+        "y": 4,
+        "blur": 4,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    }
+  },
+  "button": {
+    "sm": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -4,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow",
+      "description": "inner shadow for button"
+    },
+    "md": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -4,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "lg": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -4,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "xl": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -4,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "xxl": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -5,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    }
   }
 }
