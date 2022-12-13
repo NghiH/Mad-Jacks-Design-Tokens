@@ -32,7 +32,7 @@
     },
     "contrast": {
       "default": {
-        "value": "$neutral.700",
+        "value": "$neutral.900",
         "type": "color"
       },
       "highlight": {
@@ -40,23 +40,23 @@
         "type": "color"
       },
       "placeholder": {
-        "value": "$neutral.500",
+        "value": "$neutral.700",
         "type": "color"
       },
       "disabled": {
-        "value": "$neutral.400",
+        "value": "$neutral.500",
         "type": "color"
       },
       "success": {
-        "value": "$sys.success.700",
+        "value": "$sys.success.600",
         "type": "color"
       },
       "warning": {
-        "value": "$sys.warning.700",
+        "value": "$sys.warning.600",
         "type": "color"
       },
       "error": {
-        "value": "$sys.error.700",
+        "value": "$sys.error.600",
         "type": "color"
       }
     }
@@ -365,6 +365,64 @@
         "spread": "0",
         "color": "rgba($generic.black,0.12)",
         "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "button": {
+    "sm": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -4,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow",
+      "description": "inner shadow for button"
+    },
+    "md": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -4,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "lg": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -4,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "xl": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -4,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "xxl": {
+      "value": {
+        "color": "#00000040",
+        "type": "innerShadow",
+        "x": 0,
+        "y": -5,
+        "blur": 0,
+        "spread": 0
       },
       "type": "boxShadow"
     }
